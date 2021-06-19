@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_all"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="lmm.intern.qrioustech.uwu.Fregment.PortfolioFragment">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/_5sdp">
+
+        <!--<Spinner-->
+            <!--android:id="@+id/dynamic_spinner"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/_35sdp" />-->
+
+        <!--<com.jaredrummler.materialspinner.MaterialSpinner-->
+            <!--android:id="@+id/spinner"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"/>-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/category_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="horizontal"
+                android:orientation="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <!--<com.gigamole.navigationtabstrip.NavigationTabStrip-->
+        <!--android:id="@+id/nts_bottom"-->
+        <!--android:background="@color/header"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/_50sdp"-->
+        <!--android:layout_gravity="center"-->
+        <!--app:nts_active_color="#fff"-->
+        <!--app:nts_color="#FFFFFF"-->
+        <!--app:nts_factor="2.8"-->
+        <!--app:nts_size="@dimen/_11sdp"-->
+        <!--app:nts_corners_radius="1.5dp"-->
+        <!--app:nts_inactive_color="#fff"-->
+        <!--app:nts_titles="@array/titles"-->
+        <!--app:nts_typeface="fonts/drugs.otf"-->
+        <!--app:nts_weight="5dp"/>-->
+
+    <!--<android.support.design.widget.TabLayout-->
+        <!--android:id="@+id/nts_bottom"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/_50sdp"-->
+        <!--android:background="@color/header"-->
+        <!--app:tabTextAppearance="@style/MyTabLayout"-->
+        <!--app:tabIndicator="@android:color/white"-->
+        <!--app:tabTextColor="@android:color/white">-->
+
+    <!--</android.support.design.widget.TabLayout>-->
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:paddingTop="@dimen/_5sdp"-->
+        <!--android:layout_below="@id/nts_bottom"-->
+        <!--android:id="@+id/frameLayoutPort"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</android.support.v4.view.ViewPager>-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_below="@id/header"-->
+        <!--android:id="@+id/recycler"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:outlineProvider="bounds">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</RelativeLayout>

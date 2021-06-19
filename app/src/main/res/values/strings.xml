@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UWU</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_1">Portfolio</string>
+    <string name="tab_2">Live Chat</string>
+    <string name="tab_3">Contact Us</string>
+    <string name="tab_4">About Us</string>
+
+    <string name="des1">An application can be self-contained or a group of programs. The program is a set of operations that runs the application for the user. Examples of applications include word processors, database programs, web browsers, development tools, image editors and communication platforms.</string>
+
+</resources>

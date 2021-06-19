@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#CF0336</color>
+    <color name="header">#CF0336</color>
+    <color name="inactive">#B90030</color>
+    <color name="white">#fff</color>
+    <color name="background_all">#EEEEEE</color>
+    <color name="category">#D1D1D1</color>
+    <color name="text_colour">#808080</color>
+    <color name="selected">#9593BD</color>
+
+
+    <color name="color_notification_back">#ffcd33</color>
+    <color name="color_notification_text">#3E4757</color>
+
+</resources>
